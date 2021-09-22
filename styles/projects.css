@@ -1,0 +1,19 @@
+@media (min-width: 600px){
+    div[class="project__div"]:nth-of-type(2n){
+        flex-direction: row-reverse;
+    }
+}
+@media (max-width: 950px){
+    #section-title-div{
+        width: 90%;
+    }
+    .project__div{
+        max-width: 90%;
+        gap: 1em;
+    }
+}
+@media (max-width: 600px){
+    .project__div{
+        flex-direction: column !important;
+    }
+}

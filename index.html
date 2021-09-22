@@ -4,33 +4,197 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/navbar.css">
-    <link rel="stylesheet" href="./styles/introDiv.css">
+    <link rel="stylesheet" href="./styles/card1.css">
+    <link rel="stylesheet" href="./styles/skills.css">
+    <link rel="stylesheet" href="./styles/projects.css">
     <title>Rohit Kumar</title>
 </head>
 <body>
-    <nav>
-        <div class="nav-logo">Rohit Kumar</div>
+    <header>
+        <a href="#" class="site-logo" aria-label="homepage">Rohit</a>
         <input type="checkbox" id="nav-click">
         <label for="nav-click" class="nav-menu-btn">
         <div class="nav-menu-btn2">
             <div class="menu-btn_burger"></div>
             </div>
         </label>
-        <ul>
-            <li><a href="#">Skills</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Education</a></li>
-            <li><a href="#">About Me</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
-    <!-- INTRO DIV -->
-    <div id="intro">
-        <h1>Hi, I'm Rohit</h1>
-        <h2>I'm a Web Developer || IIT (ISM) Dhanbad</h2>
-    </div>
-    <script src="./javascript/script.js"></script>
+        <nav class="main-nav">
+          <ul class="nav__list">
+            <li class="nav__list-item">
+                <a href="#" class="nav__link">Skills</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="#" class="nav__link">Projects</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="#" class="nav__link">Education</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="#" class="nav__link">About Me</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="#" class="nav__link">Contact Me</a>
+            </li>
+          </ul>
+        </nav>
+    </header>
+
+      
+    <main>
+        <section class="home-intro">
+          <h1>Intersection Observer is pretty useful</h1>
+        </section>
+  
+        <div id="skills">
+          <h2 class="section-heading">Skills</h2>
+          <div class="skill__outerDiv">
+              <h2 class="light-black" >Language:</h2>
+              <div class="skill__innerDiv">
+                  <ul>
+                      <li>
+                        <img src="./logos//javascript.png" alt="" width="45px" height="45px">
+                        <p class="faded-text">Javascript</p>
+                    </li>
+                    <li>
+                      <img src="./logos/cpp.png" alt="C++" height="45px" width="45px">
+                      <p class="faded-text">C++</p>
+                    </li>
+                      <li>
+                        <img src="./logos/c.png" alt="C" width="45px" height="45px">
+                        <p class="faded-text">C</p>
+                      </li>
+                      <li>
+                        <img src="./logos/python.png" alt="Python" width="45px" height="45px">
+                        <p class="faded-text">Python</p>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+          <div class="skill__outerDiv">
+              <h2 class="light-black" >Framework/Library:</h2>
+              <div class="skill__innerDiv">
+                    <ul>
+                        <li>
+                            <img src="./logos/nodejs.png" alt="nodeJs" width="45px" height="45px">
+                            <p class="faded-text">Node</p>                            
+                        </li>
+                        <li>
+                            <img src="./logos/bootstrap.png" alt="Bootstrap" width="45px" height="45px">
+                            <p class="faded-text">Bootstrap</p>
+                        </li>
+                        <li>
+                            <img src="./logos/jquery.png" alt="jQuery" width="45px" height="45px">
+                            <p class="faded-text">jQuery</p>
+                        </li>
+                    </ul>
+              </div>
+          </div>
+          <div class="skill__outerDiv">
+              <h2 class="light-black" >Database:</h2>
+              <div class="skill__innerDiv">
+                <ul>
+                    <li>
+                        <img src="./logos/mongoDB.png" alt="MongoDB" height="45px" width="145px">
+                        <p class="faded-text">MongoDB</p>
+                    </li>
+                    <li>
+                        <img src="./logos/mysql.png" alt="MySQL" width="45px" height="45px">
+                        <p class="faded-text">MySQL</p>
+                    </li>
+                    <li>
+                        <img src="./logos/firebase.png" alt="Firebase" width="45px" height="45px">
+                        <p class="faded-text">Firebase</p>
+                    </li>
+                </ul>
+              </div>
+          </div>
+          <div class="skill__outerDiv">
+              <h2 class="light-black" >Other:</h2>
+              <div class="skill__innerDiv">
+                <ul>
+                    <li>
+                        <img src="./logos/css3.png" alt="CSS" width="45px" height="45px">
+                        <p class="faded-text">CSS</p>
+                    </li>
+                    <li>
+                        <img src="./logos/sass.png" alt="Sass" width="45px" height="45px">
+                        <p class="faded-text">Sass</p>
+                    </li>
+                    <li>
+                        <img src="./logos/postman.png" alt="Postman" width="45px" height="45px">
+                        <p class="faded-text">Postman</p>
+                    </li>
+                    <li>
+                        <img src="./logos/git.png" alt="Git" width="45px" height="45px">
+                        <p class="faded-text">Git</p>
+                    </li>
+                </ul>
+              </div>
+          </div>
+        </div>
+  
+
+        <div class="project-div">
+        <div id="section-title-div">
+          <h2 class="section-heading">Projects</h2>
+        </div>
+          <div class="project__div">
+            <div class="card">
+                <div class="card-content">
+                    <h2 class="card-title">Roadmap Creator</h2>
+                    <p class="card-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat quod temporibus veritatis. Neque vero, veniam debitis ut eligendi nulla in sint quos, rem, odio porro?</p>
+                    <a href="#" class="button">Learn More</a>
+                </div>
+            </div>
+            <p>Roadmap-Creator allows users to create highly detailed road-maps in both public and private mode, which will help you maintain a grasp on your goals and significantly magnify your productivity.</p>
+          </div>
+          <div class="project__div">
+            <div class="card">
+              <div class="card-content">
+                <h2 class="card-title">College Quora</h2>
+                <p class="card-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat quod temporibus veritatis. Neque vero, veniam debitis ut eligendi nulla in sint quos, rem, odio porro?</p>
+                <a href="#" class="button">Learn More</a>
+              </div>
+            </div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi laudantium beatae libero eius recusandae aut cupiditate iusto expedita sint quae? Dolores tempore odio cumque omnis?</p>
+          </div>
+          <div class="project__div">
+            <div class="card">
+                <div class="card-content">
+                    <h2 class="card-title">Fall Ball</h2>
+                    <p class="card-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat quod temporibus veritatis. Neque vero, veniam debitis ut eligendi nulla in sint quos, rem, odio porro?</p>
+                    <a href="#" class="button">Learn More</a>
+                </div>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit modi cum tenetur, molestias omnis ab consectetur magnam minus quibusdam in deleniti at dolor consequatur laudantium.</p>
+          </div>
+          <div class="project__div">
+            <div class="card">
+              <div class="card-content">
+                <h2 class="card-title">College Mate</h2>
+                <p class="card-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat quod temporibus veritatis. Neque vero, veniam debitis ut eligendi nulla in sint quos, rem, odio porro?</p>
+                <a href="#" class="button">Learn More</a>
+              </div>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, ea reiciendis libero fuga doloremque nulla excepturi laborum accusantium aut accusamus totam. Magni non perspiciatis a.</p>
+          </div>
+          <div class="project__div">
+            <div class="card">
+                <div class="card-content">
+                    <h2 class="card-title">Notes App</h2>
+                    <p class="card-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat quod temporibus veritatis. Neque vero, veniam debitis ut eligendi nulla in sint quos, rem, odio porro?</p>
+                    <a href="#" class="button">Learn More</a>
+                </div>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore consequuntur necessitatibus a commodi est non asperiores ducimus numquam, repudiandae veritatis, sapiente consequatur, doloremque ratione unde.</p>  
+          </div>
+        </div>
+    </main>
+    <script src="./javascript/navScroll.js"></script>
 </body>
 </html>
