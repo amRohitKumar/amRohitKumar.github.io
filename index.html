@@ -1,200 +1,317 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./styles/style.css">
-    <link rel="stylesheet" href="./styles/navbar.css">
-    <link rel="stylesheet" href="./styles/card1.css">
-    <link rel="stylesheet" href="./styles/skills.css">
-    <link rel="stylesheet" href="./styles/projects.css">
-    <title>Rohit Kumar</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./styles/navbar.css">
+  <link rel="stylesheet" href="./styles/card1.css">
+  <link rel="stylesheet" href="./styles/skills.css">
+  <link rel="stylesheet" href="./styles/projects.css">
+  <link rel="stylesheet" href="./styles/education.css">
+  <link rel="stylesheet" href="./styles/aboutMe.css">
+  <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+  <title>Rohit Kumar</title>
 </head>
+
 <body>
-    <header>
-        <a href="#" class="site-logo" aria-label="homepage">Rohit</a>
-        <input type="checkbox" id="nav-click">
-        <label for="nav-click" class="nav-menu-btn">
-        <div class="nav-menu-btn2">
-            <div class="menu-btn_burger"></div>
-            </div>
-        </label>
-        <nav class="main-nav">
-          <ul class="nav__list">
-            <li class="nav__list-item">
-                <a href="#" class="nav__link">Skills</a>
+  <header>
+    <a href="#" class="site-logo" aria-label="homepage">Rohit</a>
+    <input type="checkbox" id="nav-click">
+    <label for="nav-click" class="nav-menu-btn">
+      <div class="nav-menu-btn2">
+        <div class="menu-btn_burger"></div>
+      </div>
+    </label>
+    <nav class="main-nav">
+      <ul class="nav__list">
+        <li class="nav__list-item">
+          <a href="#skillsLink" class="nav__link">Skills</a>
+        </li>
+        <li class="nav__list-item">
+          <a href="#projects" class="nav__link">Projects</a>
+        </li>
+        <li class="nav__list-item">
+          <a href="#education" class="nav__link">Education</a>
+        </li>
+        <li class="nav__list-item">
+          <a href="#aboutme" class="nav__link">About Me</a>
+        </li>
+        <li class="nav__list-item">
+          <a href="#aboutme" class="nav__link">Contact Me</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <main>
+    <section class="home-intro">
+      <h1>Intersection Observer is pretty useful</h1>
+    </section>
+    <div id="skillsLink" style="padding-bottom: 4em;"></div>
+    <div id="skills">
+      <h2 class="section-heading">Skills</h2>
+      <div class="skill__outerDiv">
+        <h2 class="light-black">Language:</h2>
+        <div class="skill__innerDiv">
+          <ul>
+            <li>
+              <img src="./logos//javascript.png" alt="" width="45px" height="45px">
+              <p class="faded-text">Javascript</p>
             </li>
-            <li class="nav__list-item">
-              <a href="#" class="nav__link">Projects</a>
+            <li>
+              <img src="./logos/cpp.png" alt="C++" height="45px" width="45px">
+              <p class="faded-text">C++</p>
             </li>
-            <li class="nav__list-item">
-              <a href="#" class="nav__link">Education</a>
+            <li>
+              <img src="./logos/c.png" alt="C" width="45px" height="45px">
+              <p class="faded-text">C</p>
             </li>
-            <li class="nav__list-item">
-              <a href="#" class="nav__link">About Me</a>
-            </li>
-            <li class="nav__list-item">
-              <a href="#" class="nav__link">Contact Me</a>
+            <li>
+              <img src="./logos/python.png" alt="Python" width="45px" height="45px">
+              <p class="faded-text">Python</p>
             </li>
           </ul>
-        </nav>
-    </header>
+        </div>
+      </div>
+      <div class="skill__outerDiv">
+        <h2 class="light-black">Framework/Library:</h2>
+        <div class="skill__innerDiv">
+          <ul>
+            <li>
+              <img src="./logos/nodejs.png" alt="nodeJs" width="45px" height="45px">
+              <p class="faded-text">Node</p>
+            </li>
+            <li>
+              <img src="./logos/bootstrap.png" alt="Bootstrap" width="45px" height="45px">
+              <p class="faded-text">Bootstrap</p>
+            </li>
+            <li>
+              <img src="./logos/jquery.png" alt="jQuery" width="45px" height="45px">
+              <p class="faded-text">jQuery</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="skill__outerDiv">
+        <h2 class="light-black">Database:</h2>
+        <div class="skill__innerDiv">
+          <ul>
+            <li>
+              <img src="./logos/mongoDB.png" alt="MongoDB" height="45px" width="145px">
+              <p class="faded-text">MongoDB</p>
+            </li>
+            <li>
+              <img src="./logos/mysql.png" alt="MySQL" width="45px" height="45px">
+              <p class="faded-text">MySQL</p>
+            </li>
+            <li>
+              <img src="./logos/firebase.png" alt="Firebase" width="45px" height="45px">
+              <p class="faded-text">Firebase</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="skill__outerDiv">
+        <h2 class="light-black">Other:</h2>
+        <div class="skill__innerDiv">
+          <ul>
+            <li>
+              <img src="./logos/css3.png" alt="CSS" width="45px" height="45px">
+              <p class="faded-text">CSS</p>
+            </li>
+            <li>
+              <img src="./logos/sass.png" alt="Sass" width="45px" height="45px">
+              <p class="faded-text">Sass</p>
+            </li>
+            <li>
+              <img src="./logos/postman.png" alt="Postman" width="45px" height="45px">
+              <p class="faded-text">Postman</p>
+            </li>
+            <li>
+              <img src="./logos/git.png" alt="Git" width="45px" height="45px">
+              <p class="faded-text">Git</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
-      
-    <main>
-        <section class="home-intro">
-          <h1>Intersection Observer is pretty useful</h1>
-        </section>
-  
-        <div id="skills">
-          <h2 class="section-heading">Skills</h2>
-          <div class="skill__outerDiv">
-              <h2 class="light-black" >Language:</h2>
-              <div class="skill__innerDiv">
-                  <ul>
-                      <li>
-                        <img src="./logos//javascript.png" alt="" width="45px" height="45px">
-                        <p class="faded-text">Javascript</p>
-                    </li>
-                    <li>
-                      <img src="./logos/cpp.png" alt="C++" height="45px" width="45px">
-                      <p class="faded-text">C++</p>
-                    </li>
-                      <li>
-                        <img src="./logos/c.png" alt="C" width="45px" height="45px">
-                        <p class="faded-text">C</p>
-                      </li>
-                      <li>
-                        <img src="./logos/python.png" alt="Python" width="45px" height="45px">
-                        <p class="faded-text">Python</p>
-                      </li>
-                  </ul>
-              </div>
-          </div>
-          <div class="skill__outerDiv">
-              <h2 class="light-black" >Framework/Library:</h2>
-              <div class="skill__innerDiv">
-                    <ul>
-                        <li>
-                            <img src="./logos/nodejs.png" alt="nodeJs" width="45px" height="45px">
-                            <p class="faded-text">Node</p>                            
-                        </li>
-                        <li>
-                            <img src="./logos/bootstrap.png" alt="Bootstrap" width="45px" height="45px">
-                            <p class="faded-text">Bootstrap</p>
-                        </li>
-                        <li>
-                            <img src="./logos/jquery.png" alt="jQuery" width="45px" height="45px">
-                            <p class="faded-text">jQuery</p>
-                        </li>
-                    </ul>
-              </div>
-          </div>
-          <div class="skill__outerDiv">
-              <h2 class="light-black" >Database:</h2>
-              <div class="skill__innerDiv">
-                <ul>
-                    <li>
-                        <img src="./logos/mongoDB.png" alt="MongoDB" height="45px" width="145px">
-                        <p class="faded-text">MongoDB</p>
-                    </li>
-                    <li>
-                        <img src="./logos/mysql.png" alt="MySQL" width="45px" height="45px">
-                        <p class="faded-text">MySQL</p>
-                    </li>
-                    <li>
-                        <img src="./logos/firebase.png" alt="Firebase" width="45px" height="45px">
-                        <p class="faded-text">Firebase</p>
-                    </li>
-                </ul>
-              </div>
-          </div>
-          <div class="skill__outerDiv">
-              <h2 class="light-black" >Other:</h2>
-              <div class="skill__innerDiv">
-                <ul>
-                    <li>
-                        <img src="./logos/css3.png" alt="CSS" width="45px" height="45px">
-                        <p class="faded-text">CSS</p>
-                    </li>
-                    <li>
-                        <img src="./logos/sass.png" alt="Sass" width="45px" height="45px">
-                        <p class="faded-text">Sass</p>
-                    </li>
-                    <li>
-                        <img src="./logos/postman.png" alt="Postman" width="45px" height="45px">
-                        <p class="faded-text">Postman</p>
-                    </li>
-                    <li>
-                        <img src="./logos/git.png" alt="Git" width="45px" height="45px">
-                        <p class="faded-text">Git</p>
-                    </li>
-                </ul>
-              </div>
-          </div>
-        </div>
-  
 
-        <div class="project-div">
-        <div id="section-title-div">
-          <h2 class="section-heading">Projects</h2>
-        </div>
-          <div class="project__div">
-            <div class="card">
-                <div class="card-content">
-                    <h2 class="card-title">Roadmap Creator</h2>
-                    <p class="card-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat quod temporibus veritatis. Neque vero, veniam debitis ut eligendi nulla in sint quos, rem, odio porro?</p>
-                    <a href="#" class="button">Learn More</a>
-                </div>
-            </div>
-            <p>Roadmap-Creator allows users to create highly detailed road-maps in both public and private mode, which will help you maintain a grasp on your goals and significantly magnify your productivity.</p>
-          </div>
-          <div class="project__div">
-            <div class="card">
-              <div class="card-content">
-                <h2 class="card-title">College Quora</h2>
-                <p class="card-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat quod temporibus veritatis. Neque vero, veniam debitis ut eligendi nulla in sint quos, rem, odio porro?</p>
-                <a href="#" class="button">Learn More</a>
-              </div>
-            </div>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi laudantium beatae libero eius recusandae aut cupiditate iusto expedita sint quae? Dolores tempore odio cumque omnis?</p>
-          </div>
-          <div class="project__div">
-            <div class="card">
-                <div class="card-content">
-                    <h2 class="card-title">Fall Ball</h2>
-                    <p class="card-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat quod temporibus veritatis. Neque vero, veniam debitis ut eligendi nulla in sint quos, rem, odio porro?</p>
-                    <a href="#" class="button">Learn More</a>
-                </div>
-            </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit modi cum tenetur, molestias omnis ab consectetur magnam minus quibusdam in deleniti at dolor consequatur laudantium.</p>
-          </div>
-          <div class="project__div">
-            <div class="card">
-              <div class="card-content">
-                <h2 class="card-title">College Mate</h2>
-                <p class="card-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat quod temporibus veritatis. Neque vero, veniam debitis ut eligendi nulla in sint quos, rem, odio porro?</p>
-                <a href="#" class="button">Learn More</a>
-              </div>
-            </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, ea reiciendis libero fuga doloremque nulla excepturi laborum accusantium aut accusamus totam. Magni non perspiciatis a.</p>
-          </div>
-          <div class="project__div">
-            <div class="card">
-                <div class="card-content">
-                    <h2 class="card-title">Notes App</h2>
-                    <p class="card-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat quod temporibus veritatis. Neque vero, veniam debitis ut eligendi nulla in sint quos, rem, odio porro?</p>
-                    <a href="#" class="button">Learn More</a>
-                </div>
-            </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore consequuntur necessitatibus a commodi est non asperiores ducimus numquam, repudiandae veritatis, sapiente consequatur, doloremque ratione unde.</p>  
+    <!-- PROJECTS SECTION -->
+    <div id="projects" style="padding-bottom: 5em;"></div>
+    <div class="project-div">
+      <div id="section-title-div">
+        <h2 class="section-heading">Projects</h2>
+      </div>
+      <div class="project__div">
+        <div class="card">
+          <div class="card-content">
+            <h2 class="card-title">Roadmap Creator</h2>
+            <p class="card-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat quod temporibus
+              veritatis. Neque vero, veniam debitis ut eligendi nulla in sint quos, rem, odio porro?</p>
+            <a href="#" class="button">Learn More</a>
           </div>
         </div>
-    </main>
-    <script src="./javascript/navScroll.js"></script>
+        <p>Roadmap-Creator allows users to create highly detailed road-maps in both public and private mode, which will
+          help you maintain a grasp on your goals and significantly magnify your productivity.</p>
+      </div>
+      <div class="project__div">
+        <div class="card">
+          <div class="card-content">
+            <h2 class="card-title">College Quora</h2>
+            <p class="card-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat quod temporibus
+              veritatis. Neque vero, veniam debitis ut eligendi nulla in sint quos, rem, odio porro?</p>
+            <a href="#" class="button">Learn More</a>
+          </div>
+        </div>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi laudantium beatae libero eius recusandae aut
+          cupiditate iusto expedita sint quae? Dolores tempore odio cumque omnis?</p>
+      </div>
+      <div class="project__div">
+        <div class="card">
+          <div class="card-content">
+            <h2 class="card-title">Fall Ball</h2>
+            <p class="card-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat quod temporibus
+              veritatis. Neque vero, veniam debitis ut eligendi nulla in sint quos, rem, odio porro?</p>
+            <a href="#" class="button">Learn More</a>
+          </div>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit modi cum tenetur, molestias omnis ab
+          consectetur magnam minus quibusdam in deleniti at dolor consequatur laudantium.</p>
+      </div>
+      <div class="project__div">
+        <div class="card">
+          <div class="card-content">
+            <h2 class="card-title">College Mate</h2>
+            <p class="card-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat quod temporibus
+              veritatis. Neque vero, veniam debitis ut eligendi nulla in sint quos, rem, odio porro?</p>
+            <a href="#" class="button">Learn More</a>
+          </div>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, ea reiciendis libero fuga doloremque nulla
+          excepturi laborum accusantium aut accusamus totam. Magni non perspiciatis a.</p>
+      </div>
+      <div class="project__div">
+        <div class="card">
+          <div class="card-content">
+            <h2 class="card-title">Notes App</h2>
+            <p class="card-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat quod temporibus
+              veritatis. Neque vero, veniam debitis ut eligendi nulla in sint quos, rem, odio porro?</p>
+            <a href="#" class="button">Learn More</a>
+          </div>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore consequuntur necessitatibus a commodi est
+          non asperiores ducimus numquam, repudiandae veritatis, sapiente consequatur, doloremque ratione unde.</p>
+      </div>
+    </div>
+
+    <!-- EDUCATION SECTION -->
+    <div id="education" style="padding-bottom: 3em;"></div>
+    <div class="education-div">
+      <div id="section-title-div">
+        <h2 class="section-heading">Education</h2>
+      </div>
+      <div class="education-outer-div">
+        <div class="higherEducation">
+          <div class="college">
+            <div class="front">
+                <img class="thumbnail" src="IIT-ISM.jpg" alt="College Image">
+                <h3 class="name">IIT (ISM) DHANBAD</h3>
+                <div class="stats">
+                    <p class="viewers">December 2020 - Present</p>
+                </div>
+            </div>
+            <div class="back">
+              <ul>
+                <li>
+                  Bachelor Of Technology in Mining Engineering.
+                </li>
+                <li>
+                  CGPA: 8.4
+                </li>
+              </ul>
+            </div>
+    
+            <div class="background">
+            </div>
+          </div>
+        </div>
+        <div class="middleEducation" style="margin-top: -25px;">
+          <div class="college">
+            <div class="front">
+                <img class="thumbnail" src="KVno1.jpeg" alt="School Image">
+                <h3 class="name">K.V No.-1 Bokaro</h3>
+                <div class="stats">
+                    <p class="viewers">2018-2020</p>
+                </div>
+            </div>
+            <div class="back">
+                <ul>
+                  <li>Science</li>
+                  <li>Percentage: 95.4%(CBSE)</li>
+                </ul>
+            </div>
+            <div class="background">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ABOUT ME SECTION -->
+    <div id="aboutme" style="padding-bottom: 2em;"></div>
+    <div class="about-me-div">
+      <div id="section-title-div">
+        <h2 class="section-heading">About Me: </h2>
+      </div>
+      <div class="about-inner-div">
+        <div class="about-intro-div">
+          <p id="aboutMe">
+            <!-- Hello! My name is Rohit and I'm a Web Developer. I enjoy making websites  -->
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis nulla earum dolore est qui, iure autem a sed maiores eos mollitia minus ut debitis dolores eaque molestiae blanditiis nesciunt possimus.
+          </p>
+          <div class="about-connection">
+            <a href="">
+              <svg xmlns="http://www.w3.org/2000/svg" width="40px" height="40px" fill="blue" class="bi bi-linkedin" viewBox="0 0 16 16">
+                <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+              </svg>
+            </a>
+            <a href="">
+              <svg xmlns="http://www.w3.org/2000/svg" width="40px" height="40px" fill="black" class="bi bi-github" viewBox="0 0 16 16">
+                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+              </svg>
+            </a>
+            <a href="mailto:shutuprohit@gmail.com">
+              <svg xmlns="http://www.w3.org/2000/svg" width="40px" height="40px" fill="red" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
+              </svg>
+            </a>
+            <a href="">
+              <svg xmlns="http://www.w3.org/2000/svg" width="40px" height="40px" fill="blue" class="bi bi-facebook" viewBox="0 0 16 16">
+                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/></svg>
+            </a>
+            <a href="">
+              <svg xmlns="http://www.w3.org/2000/svg" width="40px" height="40px" fill="skyblue" class="bi bi-twitter" viewBox="0 0 16 16">
+                <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <img src="avatar.jpg" alt="myself" id="myphoto" height="250px" width="250px">
+      </div>
+    </div>
+  </main>
+  <script src="./javascript/navScroll.js" ></script>
 </body>
+
 </html>

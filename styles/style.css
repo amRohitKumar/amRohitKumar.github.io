@@ -1,12 +1,16 @@
-*, *::after, *::after{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+html{
+  scroll-behavior: smooth !important;
+  overflow-x: hidden;
 }
 
 body {
   margin: 0;
+  padding: 0;
   font-family: "Poppins", sans-serif;
+}
+
+h2{
+  margin-top: 0;
 }
 
 .home-intro {
@@ -52,11 +56,13 @@ body {
   font-size: 4em;
 }
 
-.project__div{
-  margin: 2em 0em;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 50%;
-  gap: 2em;
+@media (max-width: 650px){
+  .section-heading{
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 3.5em;
+  }
+  #section-title-div{
+    width: 100%;
+  }
 }
