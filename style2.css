@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.home-intro {
+  padding: 50vh 0;
+  background: #123 url(//unsplash.it/900);
+  background-size: cover;
+  background-blend-mode: multiply;
+  color: white;
+  text-align: center;
+}
+
+#skills{
+  padding: 1em 0;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.faded-text{
+  color: rgb(163, 163, 163);
+  font-weight: bold;
+}
+
+.nav-scrolled {
+  --text: #333;
+  --text-inverse: #f4f4f4;
+  --background: #f4f4f4;
+  font-weight: bold;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
+}
+
+.project-div{
+  background: #f4f4f4;
+  padding: 4em 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.section-heading{
+  font-weight: 500;
+  letter-spacing: 5px;
+  font-size: 4em;
+}
+
+.project__div{
+  margin: 2em 0em;
+}

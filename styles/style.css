@@ -1,0 +1,13 @@
+:root{
+    --nav-bg: #000;
+    --nav-text-clr: #fff;
+    --transition-1: 200ms;
+}
+html{
+    font-family: 'Poppins', sans-serif;
+}
+*, *::after, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
