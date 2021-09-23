@@ -19,6 +19,7 @@
   <link rel="stylesheet" href="./styles/education.css">
   <link rel="stylesheet" href="./styles/aboutMe.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
   <title>Rohit Kumar</title>
 </head>
 
@@ -75,7 +76,7 @@
     <div id="skillsLink" style="padding-bottom: 4em;"></div>
     <div id="skills">
       <h2 class="section-heading">Skills</h2>
-      <div class="skill__outerDiv">
+      <div class="skill__outerDiv fade-in">
         <h2 class="light-black">Language:</h2>
         <div class="skill__innerDiv">
           <ul>
@@ -98,7 +99,7 @@
           </ul>
         </div>
       </div>
-      <div class="skill__outerDiv">
+      <div class="skill__outerDiv fade-in">
         <h2 class="light-black">Framework/Library:</h2>
         <div class="skill__innerDiv">
           <ul>
@@ -117,7 +118,7 @@
           </ul>
         </div>
       </div>
-      <div class="skill__outerDiv">
+      <div class="skill__outerDiv fade-in">
         <h2 class="light-black">Database:</h2>
         <div class="skill__innerDiv">
           <ul>
@@ -136,7 +137,7 @@
           </ul>
         </div>
       </div>
-      <div class="skill__outerDiv">
+      <div class="skill__outerDiv fade-in">
         <h2 class="light-black">Other:</h2>
         <div class="skill__innerDiv">
           <ul>
@@ -176,7 +177,7 @@
             <a href="#" class="button">Learn More</a>
           </div>
         </div>
-        <p>Roadmap-Creator allows users to create highly detailed road-maps in both public and private mode, which will
+        <p class="fade-in-p">Roadmap-Creator allows users to create highly detailed road-maps in both public and private mode, which will
           help you maintain a grasp on your goals and significantly magnify your productivity.</p>
       </div>
       <div class="project__div">
@@ -188,7 +189,7 @@
             <a href="#" class="button">Learn More</a>
           </div>
         </div>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi laudantium beatae libero eius recusandae aut
+        <p class="fade-in-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi laudantium beatae libero eius recusandae aut
           cupiditate iusto expedita sint quae? Dolores tempore odio cumque omnis?</p>
       </div>
       <div class="project__div">
@@ -200,7 +201,7 @@
             <a href="#" class="button">Learn More</a>
           </div>
         </div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit modi cum tenetur, molestias omnis ab
+        <p class="fade-in-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit modi cum tenetur, molestias omnis ab
           consectetur magnam minus quibusdam in deleniti at dolor consequatur laudantium.</p>
       </div>
       <div class="project__div">
@@ -212,7 +213,7 @@
             <a href="#" class="button">Learn More</a>
           </div>
         </div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, ea reiciendis libero fuga doloremque nulla
+        <p class="fade-in-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, ea reiciendis libero fuga doloremque nulla
           excepturi laborum accusantium aut accusamus totam. Magni non perspiciatis a.</p>
       </div>
       <div class="project__div">
@@ -224,7 +225,7 @@
             <a href="#" class="button">Learn More</a>
           </div>
         </div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore consequuntur necessitatibus a commodi est
+        <p class="fade-in-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore consequuntur necessitatibus a commodi est
           non asperiores ducimus numquam, repudiandae veritatis, sapiente consequatur, doloremque ratione unde.</p>
       </div>
     </div>
@@ -286,11 +287,11 @@
     <div id="aboutme" style="padding-bottom: 2em;"></div>
     <div class="about-me-div">
       <div id="section-title-div" >
-        <h2 class="section-heading">About Me: </h2>
+        <h2 class="section-heading" style="margin-bottom: 0;">About Me: </h2>
       </div>
       <div class="about-inner-div">
         <div class="about-intro-div">
-          <p id="aboutMe">
+          <p>
             <!-- Hello! My name is Rohit and I'm a Web Developer. I enjoy making websites  -->
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis nulla earum dolore est qui, iure autem a sed maiores eos mollitia minus ut debitis dolores eaque molestiae blanditiis nesciunt possimus.
           </p>
@@ -326,6 +327,7 @@
     </div>
   </main>
   <script src="./javascript/navScroll.js" ></script>
+  <script src="./javascript/fadeAnimation.js"></script>
   <script type='text/javascript'>document.addEventListener('DOMContentLoaded', function () {window.setTimeout(document.querySelector('svg').classList.add('animated'),1000);})</script>
 </body>
 

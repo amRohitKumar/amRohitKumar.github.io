@@ -80,3 +80,25 @@
 .about-connection>a>svg:hover{
     fill: black;
 }
+
+.focus-about{
+    animation-name: focusAnimation;
+    animation-iteration-count: 1;
+    animation-duration: 1000ms;
+    animation-delay: 500ms;
+}
+
+@keyframes focusAnimation{
+    25%{
+        transform: scale(1.1);
+    }
+    50%{
+        transform: scale(1);
+    }
+    75%{
+        transform: scale((1.2));
+    }
+    100%{
+        transform: scale(1);
+    }
+}
