@@ -1,12 +1,39 @@
+:root {
+  --clr-foreground: #000;
+  --clr-foreground: rgb(139, 138, 138);
+  --clr-background: #f4f4f4;
+  --clr-background2: #fff;
+  --clr-background3: #c495fd;
+  --clr-title: #fff;
+}
+
+.light-theme {
+  --clr-foreground: #000;
+  --clr-background: #fff;
+  --clr-background2: #f4f4f4;
+  --clr-title: #fff;
+  /* --clr-background2: #fff; */
+}
+
+.dark-theme {
+  --clr-background: #123;
+  --clr-background2: rgba(30, 55, 80, 0.705);
+  --clr-foreground: #fff;
+  --clr-foreground2: rgb(139, 138, 138);
+  --clr-title: #e55ef1;
+}
+
 html{
   scroll-behavior: smooth !important;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 
 body {
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
+  background: var(--clr-background) !important;
+  color: var(--clr-foreground) !important;
 }
 
 h2{
@@ -18,7 +45,7 @@ h2{
   background: #123;
   background-size: cover;
   background-blend-mode: multiply;
-  color: white;
+  color: var(--clr-foreground);
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -37,7 +64,7 @@ h2{
 }
 
 .project-div{
-  background: #f4f4f4;
+  background: var(--clr-background2);
   padding: 3em 0;
   display: flex;
   justify-content: center;
@@ -52,6 +79,7 @@ h2{
   margin: 0 0;
   margin-bottom: 0.5em;
   text-align: left !important;
+  filter: drop-shadow(4px 3px 8px var(--clr-title));
 }
 .section-heading{
   font-weight: 500;

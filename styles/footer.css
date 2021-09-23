@@ -1,0 +1,8 @@
+#footerDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#footerDiv p{
+    font-weight: bold;
+}

@@ -1,3 +1,8 @@
+.home-intro{
+  box-shadow: 0px 15px 10px -15px;
+  padding-bottom: 3em;
+}
+
 #intro-right,
 #intro-left {
   width: 50%;
@@ -16,16 +21,18 @@
 }
 
 #intro-left h1 {
+  color: #f4f4f4;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 2rem;
   font-size: 4em;
   margin-bottom: 0;
+  filter: drop-shadow(10px 5px 10px #4444dd);
 }
 
 #intro-left p {
-  color: gray;
+  color: grey;
   font-weight: bold;
   font-size: 1.5em;
   letter-spacing: 1px;

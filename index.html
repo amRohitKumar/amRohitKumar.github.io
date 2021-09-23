@@ -12,14 +12,17 @@
     rel="stylesheet">
   <link rel="stylesheet" href="./styles/style.css">
   <link rel="stylesheet" href="./styles/navbar.css">
+  <link rel="stylesheet" href="./styles/darkMode.css">
   <link rel="stylesheet" href="./styles/introDiv.css">
   <link rel="stylesheet" href="./styles/card1.css">
   <link rel="stylesheet" href="./styles/skills.css">
   <link rel="stylesheet" href="./styles/projects.css">
   <link rel="stylesheet" href="./styles/education.css">
   <link rel="stylesheet" href="./styles/aboutMe.css">
+  <link rel="stylesheet" href="./styles/footer.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <title>Rohit Kumar</title>
 </head>
 
@@ -49,6 +52,20 @@
         <li class="nav__list-item">
           <a href="#aboutme" class="nav__link">Contact Me</a>
         </li>
+        <li>
+          
+          <button id="theme-toggle">
+            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 472.39 472.39">
+              <g class="toggle-sun">
+                <path d="M403.21,167V69.18H305.38L236.2,0,167,69.18H69.18V167L0,236.2l69.18,69.18v97.83H167l69.18,69.18,69.18-69.18h97.83V305.38l69.18-69.18Zm-167,198.17a129,129,0,1,1,129-129A129,129,0,0,1,236.2,365.19Z" />
+              </g>
+              <g class="toggle-circle">
+                <circle class="cls-1" cx="236.2" cy="236.2" r="103.78" />
+              </g>
+            </svg>
+          </button>
+
+        </li>
       </ul>
     </nav>
   </header>
@@ -66,7 +83,7 @@
           &nbsp;|| IIT (ISM) Dhanbad&nbsp;
           <img alt="🎓" src="https://twemoji.maxcdn.com/v/13.1.0/72x72/1f393.png" width="30px" height="30px">
         </p>
-        <a id="resume-btn" href="">My Resume</a>
+        <a id="resume-btn" href="https://drive.google.com/file/d/12xchmKcXciokpAXJIoTDj81ird2LaKKY/view?usp=sharing" target="_blank">My Resume</a>
       </div>
       <div id="intro-right">
         <!-- <h2>animation</h2> -->
@@ -106,6 +123,10 @@
             <li>
               <img src="./logos/nodejs.png" alt="nodeJs" width="45px" height="45px">
               <p class="faded-text">Node</p>
+            </li>
+            <li>
+              <img src="./logos/express.png" alt="nodeJs" width="95px" height="45px">
+              <p class="faded-text">Express</p>
             </li>
             <li>
               <img src="./logos/bootstrap.png" alt="Bootstrap" width="45px" height="45px">
@@ -173,60 +194,94 @@
         <div class="card">
           <div class="card-content">
             <h2 class="card-title">Roadmap Creator</h2>
-            <p class="card-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, nostrum.</p>
+            <p class="card-body">
+              <strong> Tech Stack: </strong>
+              <ul>
+                <li>Node.js</li>
+                <li>Express</li>
+                <li>MongoDB</li>
+                <li>Passport</li>
+                <li>Other packages</li>
+              </ul>
+            </p>
             <a href="https://roadmapcreator.herokuapp.com" class="button" target="_blank">Open</a>
           </div>
         </div>
         <p class="fade-in-p">Roadmap-Creator allows users to create highly detailed road-maps in both public and private mode, which will
-          help you maintain a grasp on your goals and significantly magnify your productivity.</p>
+          help user maintain a grasp on his goals and significantly magnify productivity.
+        </p>
       </div>
       <div class="project__div">
         <div class="card">
           <div class="card-content">
             <h2 class="card-title">College Quora</h2>
-            <p class="card-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat quod temporibus
-              veritatis. Neque vero, veniam debitis ut eligendi nulla in sint quos, rem, odio porro?</p>
-            <a href="https://roadmapcreator.herokuapp.com" class="button" target="_blank">Open</a>
+            <p class="card-body">
+              <strong> Tech Stack: </strong>
+              <ul>
+                <li>Node.js</li>
+                <li>Express</li>
+                <li>MongoDB</li>
+                <li>Other packages</li>
+              </ul>
+            </p>
+            <a href="https://safe-woodland-91444.herokuapp.com/" class="button" target="_blank">Open</a>
           </div>
         </div>
-        <p class="fade-in-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi laudantium beatae libero eius recusandae aut
-          cupiditate iusto expedita sint quae? Dolores tempore odio cumque omnis?</p>
+        <p class="fade-in-p">College Quora is a platform where students can ask questions(upload images) and connect with people who contribute unique insights and quality answers.</p>
       </div>
       <div class="project__div">
         <div class="card">
           <div class="card-content">
             <h2 class="card-title">Fall Ball</h2>
-            <p class="card-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat quod temporibus
-              veritatis. Neque vero, veniam debitis ut eligendi nulla in sint quos, rem, odio porro?</p>
+            <p class="card-body">
+              <strong> Tech Stack: </strong>
+              <ul>
+                <li>Javascript</li>
+                <li>CSS</li>
+                <li>HTML</li>
+              </ul>
+            </p>
             <a href="https://shutuprohit.github.io/Fall-Ball/index.html" class="button" target="_blank">Open</a>
           </div>
         </div>
-        <p class="fade-in-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit modi cum tenetur, molestias omnis ab
-          consectetur magnam minus quibusdam in deleniti at dolor consequatur laudantium.</p>
+        <p class="fade-in-p">Fall Ball is a lightweight single-player ball game created with javascript for entertainment and fun.</p>
       </div>
       <div class="project__div">
         <div class="card">
           <div class="card-content">
             <h2 class="card-title">Online Mate</h2>
-            <p class="card-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat quod temporibus
-              veritatis. Neque vero, veniam debitis ut eligendi nulla in sint quos, rem, odio porro?</p>
+            <p class="card-body">
+              <strong> Tech Stack: </strong>
+              <ul>
+                <li>Javascript</li>
+                <li>IndexedDB</li>
+                <li>CSS</li>
+                <li>HTML</li>
+              </ul>
+            </p>
             <a href="https://chrome.google.com/webstore/detail/online-mate/cpkaahjmeacodnlaaeikaeepfncjbamp?hl=en" class="button" target="_blank">Open</a>
           </div>
         </div>
-        <p class="fade-in-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, ea reiciendis libero fuga doloremque nulla
-          excepturi laborum accusantium aut accusamus totam. Magni non perspiciatis a.</p>
+        <p class="fade-in-p">College Mate is a light extension that allows students to create their timetable and store online class links in the timetable itself.</p>
       </div>
       <div class="project__div">
         <div class="card">
           <div class="card-content">
             <h2 class="card-title">Notes App</h2>
-            <p class="card-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat quod temporibus
-              veritatis. Neque vero, veniam debitis ut eligendi nulla in sint quos, rem, odio porro?</p>
+            <p class="card-body">
+              <strong> Tech Stack: </strong>
+              <ul>
+                <li>Node.js</li>
+                <li>Express</li>
+                <li>MongoDB</li>
+                <li>Bootstrap</li>
+                <li>Other packages</li>
+              </ul>
+            </p>
             <a href="https://calm-depths-98372.herokuapp.com/" class="button" target="_blank">Open</a>
           </div>
         </div>
-        <p class="fade-in-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore consequuntur necessitatibus a commodi est
-          non asperiores ducimus numquam, repudiandae veritatis, sapiente consequatur, doloremque ratione unde.</p>
+        <p class="fade-in-p">Notes App is a web app for storing notes. Users can create, edit and delete their notes and can access them from any device anywhere.</p>
       </div>
     </div>
 
@@ -292,8 +347,8 @@
       <div class="about-inner-div">
         <div class="about-intro-div">
           <p>
-            <!-- Hello! My name is Rohit and I'm a Web Developer. I enjoy making websites  -->
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis nulla earum dolore est qui, iure autem a sed maiores eos mollitia minus ut debitis dolores eaque molestiae blanditiis nesciunt possimus.
+            Hello! My name is Rohit  Kumar, I'm a Web Developer. I enjoy making websites and designing them. I'm currently doing my bachelor's from the Indian Institute of Technology (IIT ISM) Dhanbad in Mining Engineering.<br> 
+            If you have any suggestions or want to say HI ! drop me a message :) 
           </p>
           <div class="about-connection">
             <a href="https://www.linkedin.com/in/rohit-kumar-8ba1241bb/" target="_blank">
@@ -325,8 +380,14 @@
         <img src="./images/avatar.jpg" alt="myself" id="myphoto" height="250px" width="250px">
       </div>
     </div>
+
+    <!-- FOOTER -->
+    <div id="footerDiv">
+      <p>Made with <img alt="❤️" draggable="false" src="https://twemoji.maxcdn.com/2/72x72/2764.png" style="height: 1em; width: 1em; margin: 0px 0.05em 0px 0.1em; vertical-align: -0.1em;"> by Rohit Kumar</p>
+    </div>
   </main>
   <script src="./javascript/navScroll.js" ></script>
+  <script src="./javascript/darkMode.js"></script>
   <script src="./javascript/fadeAnimation.js"></script>
   <script type='text/javascript'>document.addEventListener('DOMContentLoaded', function () {window.setTimeout(document.querySelector('svg').classList.add('animated'),1000);})</script>
 </body>

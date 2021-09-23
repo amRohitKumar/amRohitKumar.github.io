@@ -1,10 +1,17 @@
+.project-div{
+    box-shadow: 0px -10px 10px -15px;
+}
+
 .project__div{
     margin: 2em 0em;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    max-width: 50%;
-    gap: 2em;
+    width: 60%;
+    gap: 1em;
+}
+.project__div > .card, .project__div > p{
+    width: 50%;
 }
 
 @media (min-width: 600px){
@@ -17,13 +24,18 @@
         width: 90%;
     }
     .project__div{
-        max-width: 90%;
+        width: 95%;
         gap: 1em;
+    }
+    .project__div > .card, .project__div > p{
+        min-width: 85% !important;
     }
 }
 @media (max-width: 600px){
     .project__div{
         flex-direction: column !important;
+        justify-content: center;
+        align-items: center;
     }
 }
 

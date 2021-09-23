@@ -1,5 +1,9 @@
+#aboutme{
+    background: var(--clr-background2);
+    box-shadow: 0px -15px 15px -15px;
+}
 .about-me-div{
-    background: #f4f4f4;
+    background: var(--clr-background2);
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -22,6 +26,22 @@
     align-items: flex-start;
     flex-direction: column;
     width: 50%;
+}
+.about-intro-div p{
+    font-size: large;
+    letter-spacing: 1px;
+    position: relative;
+    margin-left: 1em;
+}
+.about-intro-div p::before{
+    font-family: "FontAwesome";
+    content: "\f10d";
+    font-size: 30px;
+    font-style: normal;
+    color: #cecece;
+    position: absolute;
+    top: 0;
+    left: -1.5em;
 }
 
 .about-connection{
@@ -76,9 +96,12 @@
         margin-left: 2rem !important;
     }
 }
+.about-connection>a>svg{
+    transition: all 250ms ease-in;
+}
 
 .about-connection>a>svg:hover{
-    fill: black;
+    transform: scale(1.3);
 }
 
 .focus-about{
@@ -102,3 +125,4 @@
         transform: scale(1);
     }
 }
+
