@@ -2,11 +2,11 @@
     background: #f4f4f4;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
     width: 100%;
     padding-top: 3em;
-    /* padding-bottom: 5em; */
+    padding-bottom: 2em;
 }
 
 .about-inner-div{
@@ -43,7 +43,13 @@
 
 }
 
-@media (max-width: 650px){
+@media (min-width: 900px){
+    .about-me-div .section-heading{
+        margin-left: 6rem !important;
+    }
+}
+
+@media (max-width: 900px){
     .about-inner-div{
         display: flex;
         flex-direction: column-reverse;
@@ -57,7 +63,20 @@
     }
     .about-connection{
         width: 100%;
-        justify-content: space-between;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
         margin: 0;
     }
+    .about-me-div{
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+    .about-me-div .section-heading{
+        margin-left: 2rem !important;
+    }
+}
+
+.about-connection>a>svg:hover{
+    fill: black;
 }

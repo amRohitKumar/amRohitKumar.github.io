@@ -4,8 +4,8 @@
 
 .card{
     color: var(--clr-accent-400);
-    background-image: url('bgimg1.jpg');
-    background-size: cover;
+    background-image: url('bgimg1.jpg') !important;
+    background-size: cover !important;
     padding: 3rem 0 0;
     max-width: 35ch;
     min-width: 30ch;

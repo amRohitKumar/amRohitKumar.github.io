@@ -14,12 +14,15 @@ h2{
 }
 
 .home-intro {
-  padding: 50vh 0;
-  background: #123 url(//unsplash.it/900);
+  display: flex;
+  background: #123;
   background-size: cover;
   background-blend-mode: multiply;
   color: white;
   text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 #skills{

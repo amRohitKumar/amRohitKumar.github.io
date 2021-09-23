@@ -1,8 +1,8 @@
 header {
   --text: #f4f4f4;
   --text-inverse: #333;
-  --background: transparent;
-  --background2: transparent;
+  --background: #123;
+  --background2: #123;
   position: fixed;
   top: 0;
   left: 0;
