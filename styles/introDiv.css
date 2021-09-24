@@ -1,4 +1,4 @@
-.home-intro{
+.home-intro {
   box-shadow: 0px 15px 10px -15px;
   padding-bottom: 3em;
 }
@@ -47,20 +47,20 @@
   animation-name: wave-emoji-animation;
 }
 
-#resume-btn{
-    padding: 0.5em 1em;
-    border-radius: 9px;
-    text-decoration: none;
-    background-color: honeydew;
-    font-weight: 500;
-    font-size: 1.2em;
-    transition: all 550ms ease !important;
+#resume-btn {
+  padding: 0.5em 1em;
+  border-radius: 9px;
+  text-decoration: none;
+  background-color: honeydew;
+  font-weight: 500;
+  font-size: 1.2em;
+  transition: all 550ms ease !important;
 }
 
-#resume-btn:hover{
-    color: black;
-    background-color: yellow;
-    transform: scale(1.1);
+#resume-btn:hover {
+  color: black;
+  background-color: yellow;
+  transform: scale(1.1);
 }
 
 @keyframes wave-emoji-animation {
@@ -87,21 +87,21 @@
   }
 }
 
-@media (max-width: 900px){
-    .home-intro{
-        /* flex-direction: column; */
-        flex-wrap: wrap;
-        width: 100%;
-        height: max-content;
-        padding-bottom: 2em;
-    }
-    #intro-right{
-        display: none;
-    }
-    #intro-left{
-        padding-top: 5em;
-    }
-    #intro-left h1 {
-        flex-wrap: wrap;
-    }
+@media (max-width: 900px) {
+  .home-intro {
+    flex-wrap: wrap;
+    width: 100%;
+    height: max-content;
+    padding-bottom: 2em;
+    flex-direction: column;
+  }
+  #intro-right {
+    padding-top: 2em;
+  }
+  #intro-left {
+    padding-top: 5em;
+  }
+  #intro-left h1 {
+    flex-wrap: wrap;
+  }
 }

@@ -15,7 +15,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-direction: row;
+    /* flex-direction: row; */
     max-width: 40%;
    margin-top: var(--top-margin);
    gap: 8em;
@@ -161,7 +161,7 @@ img{
     .education-outer-div{
         width: 90% !important;
         flex-direction: column;
-        gap: 12em;
+        gap: 15em;
     }
     .college .background{
         opacity: 1;
