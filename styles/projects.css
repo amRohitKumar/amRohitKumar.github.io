@@ -27,15 +27,15 @@
         width: 95%;
         gap: 1em;
     }
-    .project__div > .card, .project__div > p{
-        min-width: 85% !important;
-    }
 }
 @media (max-width: 600px){
     .project__div{
         flex-direction: column !important;
         justify-content: center;
         align-items: center;
+    }
+    .project__div > .card, .project__div > p{
+        min-width: 85% !important;
     }
 }
 
