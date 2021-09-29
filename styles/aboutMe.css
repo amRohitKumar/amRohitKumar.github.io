@@ -45,14 +45,14 @@
 }
 
 .about-connection{
+    display: flex;
     margin-top: 1em;
     width: max-content;
+    flex-wrap: wrap;
 }
 .about-connection a{
     margin: 1em 1em;
 }
-
-
 .about-inner-div img{
     border-radius: 50%;
     transition: box-shadow 200ms ease-in;
@@ -83,7 +83,6 @@
     }
     .about-connection{
         width: 100%;
-        display: flex;
         justify-content: space-around;
         align-items: center;
         margin: 0;

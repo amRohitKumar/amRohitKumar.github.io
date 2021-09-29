@@ -1,19 +1,19 @@
-#intro-left h1 .glitch-effect {
+#intro-left h1 .first-part .glitch-effect {
   position: absolute;
   top: 0;
   left: 0;
 }
 
-#intro-left h1 span:nth-child(1) {
+.glitch-effect:nth-child(1) {
   animation: glitch 750ms infinite;
   clip-path: polygon(0 0, 100% 0, 100% 45%, 0 45%);
   transform: translate(-0.025em, -0.0125em);
   opacity: 0.8;
 }
-.glitch span:nth-child(2) {
+.glitch-effect:nth-child(2) {
   animation: glitch 850ms infinite;
   clip-path: polygon(0 60%, 100% 60%, 100% 100%, 0 100%);
-  transform: translate(0.025em, 0.0125em);
+  transform: translate(.025em, 0.0125em);
   opacity: 0.8;
 }
 
