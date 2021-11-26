@@ -22,13 +22,9 @@
     /* --clr-accent-400: hsl(342, 93%, 45%); */
 }
 
-.project__div:nth-child(2)>.card{
-    color: white;
-}
-
 .project__div:nth-child(2) .card{
     background-image: url('../images/crwn-clothing.png');
-    /* filter: blur(0.5px); */
+    color: white;
 }
 
 .project__div:nth-child(3) .card{
