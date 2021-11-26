@@ -22,17 +22,26 @@
     /* --clr-accent-400: hsl(342, 93%, 45%); */
 }
 
+.project__div:nth-child(2)>.card{
+    color: white;
+}
+
 .project__div:nth-child(2) .card{
+    background-image: url('../images/crwn-clothing.png');
+    /* filter: blur(0.5px); */
+}
+
+.project__div:nth-child(3) .card{
     background-image: url('../images/roadmapCreator2.png');
 }
-.project__div:nth-child(3) .card{
+.project__div:nth-child(4) .card{
     background-image: url('../images/collegeQuora.png');
 }
-.project__div:nth-child(4) .card{
+.project__div:nth-child(5) .card{
     background-image: url('../images/fallBall.png');
     background-position-x: center;
 }
-.project__div:nth-child(5) .card{
+.project__div:nth-child(6) .card{
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/onlineMate2.jpg');
     background-color: #fcdb3d;
     background-position: center;
@@ -40,7 +49,7 @@
     background-repeat: no-repeat;
     /* filter: brightness(90%); */
 }
-.project__div:nth-child(6) .card{
+.project__div:nth-child(7) .card{
     background-image: url('../images/notesApp.png');
     background-position-x: center;
 }
