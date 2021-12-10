@@ -5,6 +5,7 @@
   --clr-background2: #fff;
   --clr-background3: #c495fd;
   --clr-title: #fff;
+  --clr-shadow: rgba(85, 84, 84, 0.75);
 }
 
 .light-theme {
@@ -12,7 +13,7 @@
   --clr-background: #fff;
   --clr-background2: #f4f4f4;
   --clr-title: #fff;
-  /* --clr-background2: #fff; */
+  --clr-shadow: rgba(85, 84, 84, 0.75);
 }
 
 .dark-theme {
@@ -21,6 +22,7 @@
   --clr-foreground: #fff;
   --clr-foreground2: rgb(139, 138, 138);
   --clr-title: #e55ef1;
+  --clr-shadow: rgba(255,255,255,0.75);
 }
 
 html {

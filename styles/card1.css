@@ -4,12 +4,10 @@
 
 .card{
     color: var(--clr-accent-400);
-    /* background-image: url('bgimg1.jpg') !important; */
     background-size: cover !important;
-    box-shadow: 1px -2px 30px -7px rgba(255,255,255,0.75);
+    box-shadow: 1px -2px 30px -7px var(--clr-shadow);
     padding: 3rem 0 0;
-    max-width: 35ch;
-    /* min-width: 30ch; */
+    width: 70%;
     border-radius: 1rem;
     overflow: hidden;
     transition: transform 500ms ease;
@@ -22,22 +20,22 @@
     /* --clr-accent-400: hsl(342, 93%, 45%); */
 }
 
-.project__div:nth-child(2) .card{
+.project__div:nth-child(1) .card{
     background-image: url('../images/crwn-clothing.png');
     color: white;
 }
 
-.project__div:nth-child(3) .card{
+.project__div:nth-child(2) .card{
     background-image: url('../images/roadmapCreator2.png');
 }
-.project__div:nth-child(4) .card{
+.project__div:nth-child(3) .card{
     background-image: url('../images/collegeQuora.png');
 }
-.project__div:nth-child(5) .card{
+.project__div:nth-child(4) .card{
     background-image: url('../images/fallBall.png');
     background-position-x: center;
 }
-.project__div:nth-child(6) .card{
+.project__div:nth-child(5) .card{
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/onlineMate2.jpg');
     background-color: #fcdb3d;
     background-position: center;
@@ -45,7 +43,7 @@
     background-repeat: no-repeat;
     /* filter: brightness(90%); */
 }
-.project__div:nth-child(7) .card{
+.project__div:nth-child(6) .card{
     background-image: url('../images/notesApp.png');
     background-position-x: center;
 }
