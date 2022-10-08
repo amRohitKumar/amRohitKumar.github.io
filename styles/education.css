@@ -9,13 +9,26 @@
     align-items: center;
     flex-direction: column;
     padding-bottom: 10em;
+    position: relative;
+    overflow: hidden;
+}
+
+#esvg{
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    display: none;
+}
+
+.text01,.text02{
+    font-size: 0.75em;
 }
 
 .education-outer-div{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* flex-direction: row; */
+    flex-direction: column;
     max-width: 40%;
    margin-top: var(--top-margin);
    gap: 8em;
@@ -182,5 +195,17 @@ img{
     
     .college .back{
         opacity: 1;
+    }
+}
+
+/* svg changes */
+
+@media (min-width: 1200px) {
+    .higherEducation{
+        margin-left: 15em;
+        margin-top: 1em;
+    }
+    #esvg{
+        display: inherit;
     }
 }

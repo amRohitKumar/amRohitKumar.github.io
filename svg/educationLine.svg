@@ -1,0 +1,16 @@
+<svg id="svg" xmlns="http://www.w3.org/2000/svg" viewBox="100 0 600 710">    
+    <path class="theLine" d="M -5,0
+    Q 450 230 300 450 
+    T 130 750
+    Q 100 850 300 1000
+    T 150 1200" fill="none" stroke="black" stroke-width="10px" 
+    style="stroke-dashoffset: 0; stroke-dasharray: 0, 2253;"
+    />
+    
+    <circle class="ball ball02" r="20" cx="278" cy="201"></circle>
+    <text class="text01" x="265" y="206" fill="white">2018</text>
+
+    <circle class="ball ball04" r="20" cx="265" cy="501"></circle>
+    <text class="text02" x="250" y="505" fill="white">2020</text>
+  
+</svg>
